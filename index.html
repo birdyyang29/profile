@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>birdy</title>
     <link href="css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link rel="stylesheet" href="css/style2.css">
@@ -19,7 +21,7 @@
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
                 <div clas="icon"><img src="img/birdy1_s.jpg" class="img-circle"></div>
-                <a class="navbar-brand page-scroll" href="#page-top" style="margin-left:60px">Birdy</a>
+                <a class="navbar-brand page-scroll" href="#page-top" style="margin-left:45px">Birdy</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
@@ -71,23 +73,23 @@
         <h1>About Me</h1>
         <hr class="underline">
         <div class="row">
-            <div class="col-md-2 col-sm-3" style="padding-top: 20px">
+            <div class="col-md-3 col-sm-6" style="padding-top: 45px;   text-align: center;">
                 <img src="img/birdy1_new.jpg" class="img-circle">
             </div>
-            <div class="col-md-6 col-sm-6 about-me-content">
+            <div class="col-md-3 col-sm-6 about-me-content">
                 <h3>楊佳鳳</h3>
                 <p>
-                我是楊佳鳳，畢業於中正大學資訊管理研究所，是位網頁後端工程師。<br>
-                喜歡新的事物，勇於接受各種挑戰。<br>
-                善於與人溝通，深入瞭解使用者需求，在需求、時程與技術三端達到平衡．完成近百個專案。<br>
-                自我學習能力佳，善用各方資源學習新的技術，不斷提升自我。
-                </p>
+                我是楊佳鳳，畢業於中正大學資訊管理研究所，是位網頁後端工程師。</p>
+                <p>喜歡新的事物，勇於接受各種挑戰。</p>
+                <p>善於與人溝通，深入瞭解使用者需求，在需求、時程與技術三端達到平衡．完成近百個專案。</p>
+                <p>自我學習能力佳，善用各方資源學習新的技術，不斷提升自我。</p>
+                <!-- </p> -->
             </div>
-            <div class="col-md-4 col-sm-3 about-me-info">
-                <p>姓名：楊佳鳳<br>
-                生日：1990 . 8. 29<br>
-                學歷：國立中正大學資訊管理研究所 碩士<br>
-                E-mail：birdyyang29@gmail.com</p>
+            <div class="col-md-3 col-sm-6 about-me-info">
+                <p>姓名：楊佳鳳</p>
+                <p>生日：1990 . 8. 29</p>
+                <p>學歷：國立中正大學資訊管理研究所 碩士</p>
+                <p>E-mail：birdyyang29@gmail.com</p>
             </div>
         </div>
     </div>
@@ -99,7 +101,7 @@
         <h1 id="timeline">Timeline</h1>
         <hr class="underline">
     </div>
-    <ul class="timeline">
+    <ul class="timeline col-md-12">
         <li>
         <div class="timeline-badge">
             <i class="fa fa-briefcase"></i>
@@ -122,15 +124,15 @@
                             <li>原廠技術窗口</li>
                         </ul>
                     </li>
-
-
                 </ul>
             </div>
           </div>
         </li>
         <li class="timeline-inverted">
-            <div class="timeline-badge warning"><i class="fa fa-graduation-cap"></i></div>
-            <div class="timeline-time"><span>2012 - 2014 </span></div> 
+            <div class="timeline-badge warning">
+                <i class="fa fa-graduation-cap"></i>
+                <div class="timeline-time"><span>2012 - 2014 </span></div> 
+            </div>
             <div class="timeline-panel">
             <div class="timeline-heading">
                 <h4 class="timeline-title">資訊管理研究所 碩士</h4>
@@ -155,8 +157,10 @@
           </div>
         </li>
         <li>
-            <div class="timeline-badge danger"><i class="fa fa-graduation-cap"></i></div>
-            <div class="timeline-time"><span>2008 - 2012 </span></div> 
+            <div class="timeline-badge danger">
+                <i class="fa fa-graduation-cap"></i>                
+                <div class="timeline-time"><span>2008 - 2012 </span></div> 
+            </div>
             <div class="timeline-panel">
             <div class="timeline-heading">
                <h4 class="timeline-title">資訊管理學 學士</h4>
@@ -176,7 +180,7 @@
             <hr class="underline">
         </div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 skill-row">
                 <div class="progress skill-bar ">
                     <div class="progress-bar " role="progressbar" aria-valuenow="90">
                         <span class="skill">PHP <i class="val">90%</i></span>
@@ -213,7 +217,7 @@
                     </div>
                 </div> 
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 skill-row">
                     
                 <div class="progress skill-bar">
                     <div class="progress-bar " role="progressbar" aria-valuenow="90">
@@ -272,10 +276,11 @@
                 </ul>
             </div>
         </div>
+        <div class="col-lg-12">
         <div class="tab-content">
             <div role="tabpanel" class="tab-pane active" id="event">
                 <div class="gallery">
-                    <div class="works">
+                    <div class="works col-xs-12 col-sm-4 col-md-4">
                         <ul class="lightgallery1">
                             <a href="img/works/event/mh/design/new/1.png">
                                 <li><img src="img/works/event/mh/design/new/s_1.png">
@@ -287,7 +292,7 @@
                         </ul>
                         <p><a href="https://event.heroes.garena.tw/20161128-design/index" target="_blank">【 新瑪奇英雄傳 】2016. 11 創意設計大賽</a></p>
                     </div>
-                    <div class="works">
+                    <div class="works col-xs-12 col-sm-4 col-md-4">
                         <ul class="lightgallery1">
                             <a href="img/works/event/mh/dragon/new/1.png">
                                 <li><img src="img/works/event/mh/dragon/new/s_1.png">
@@ -308,7 +313,7 @@
                         </ul>
                         <p><a href="https://event.heroes.garena.tw/20160929-dragonbox/index" target="_blank">【 新瑪奇英雄傳 】2016. 09 上古黑龍寶箱</a></p>
                     </div>
-                    <div class="works">
+                    <div class="works col-xs-12 col-sm-4 col-md-4">
                         <ul class="lightgallery1">
                             <a href="img/works/event/mh/ghost/new/1.png">
                                 <li><img src="img/works/event/mh/ghost/new/s_1.png">
@@ -317,16 +322,16 @@
                             <a href="img/works/event/mh/ghost/new/2.png">
                                 <li class="hide"><img  src="img/works/event/mh/ghost/new/s_2.png"></li>
                             </a>
-                            <a href="img/works/event/mh/ghost/new/new/3.png">
+                            <a href="img/works/event/mh/ghost/new/3.png">
                                 <li class="hide"><img  src="img/works/event/mh/ghost/new/s_3.png"></li>
                             </a>
-                            <a href="img/works/event/mh/ghost/new/new/4.png">
+                            <a href="img/works/event/mh/ghost/new/4.png">
                                 <li class="hide"><img  src="img/works/event/mh/ghost/new/s_4.png"></li>
                             </a>
-                            <p><a href="https://event.heroes.garena.tw/20160824-ghost/index" target="_blank">【 新瑪奇英雄傳 】2016. 08 老佛的鬼話連篇</a></p>
                         </ul>
+                        <p><a href="https://event.heroes.garena.tw/20160824-ghost/index" target="_blank">【 新瑪奇英雄傳 】2016. 08 老佛的鬼話連篇</a></p>
                     </div>
-                    <div class="works">
+                    <div class="works col-xs-12 col-sm-4 col-md-4">
                         <ul class="lightgallery1">
                             <a href="img/works/event/lostsaga/pinball/new/ball1.png">
                                 <li><img src="img/works/event/lostsaga/pinball/new/s_ball1.png">
@@ -344,7 +349,7 @@
                         </ul>
                         <p><a href="https://event.lostsaga.garena.tw/20160623-pinball/index" target="_blank">【 王牌對決 】2016. 06 雷霆彈珠檯</a></p>
                     </div>
-                    <div class="works">
+                    <div class="works col-xs-12 col-sm-4 col-md-4">
                         <ul class="lightgallery1">
                             <a href="img/works/event/lostsaga/hell/new/hell1.png">
                                 <li><img src="img/works/event/lostsaga/hell/new/s_hell1.png">
@@ -356,7 +361,7 @@
                         </ul>
                         <p><a href="https://event.lostsaga.garena.tw/20160505-hell/index" target="_blank">【 王牌對決 】2016. 05 勇闖地域門</a></p>
                     </div>
-                    <div class="works">
+                    <div class="works col-xs-12 col-sm-4 col-md-4">
                         <ul class="lightgallery1">
                             <a href="img/works/event/ava/weapon/new/weapon1.png">
                                 <li><img src="img/works/event/ava/weapon/new/s_weapon1.png">
@@ -371,7 +376,7 @@
                         </ul>
                         <p><a href="https://events.ava.garena.tw/weapon_market/index" target="_blank">【 AVA戰地之王 】2016. 04 威噴市集 </a></p>
                     </div>
-                    <div class="works">
+                    <div class="works col-xs-12 col-sm-4 col-md-4">
                         <ul class="lightgallery1">
                             <a href="img/works/event/mh/sakura/new/1.png">
                                 <li><img src="img/works/event/mh/sakura/new/s_1.png">
@@ -389,7 +394,7 @@
                         </ul>
                         <p><a href="https://event.heroes.garena.tw/20160316-sakura/index" target="_blank">【 新瑪奇英雄傳 】2016. 03 我的櫻花祭 </a></p>
                     </div>
-                    <div class="works">
+                    <div class="works col-xs-12 col-sm-4 col-md-4">
                         <ul class="lightgallery1">
                             <a href="img/works/event/ava/slot/new/slot1.png">
                                 <li><img src="img/works/event/ava/slot/new/s_slot1.png">
@@ -404,7 +409,7 @@
                         </ul>
                         <p><a href="https://events.ava.garena.tw/event/20160126-slot/index" target="_blank">【 AVA戰地之王 】2016. 01 終極拉霸機 </a></p>
                     </div>
-                    <div class="works">
+                    <div class="works col-xs-12 col-sm-4 col-md-4">
                         <ul class="lightgallery1">
                             <a href="img/works/event/mh/test/new/1.png">
                                 <li><img src="img/works/event/mh/test/new/s_1.png">
@@ -419,7 +424,7 @@
                         </ul>
                         <p><a href="https://event.heroes.garena.tw/20151223-phytest/index" target="_blank">【 新瑪奇英雄傳 】2015. 12 蓋聯老公公的詭異心理測驗 </a></p>
                     </div>
-                    <div class="works">
+                    <div class="works col-xs-12 col-sm-4 col-md-4">
                         <ul class="lightgallery1">
                             <a href="img/works/event/mh/cover/new/1.png">
                                 <li><img src="img/works/event/mh/cover/new/s_1.png">
@@ -443,7 +448,7 @@
                         </ul>
                         <p><a href="https://event.heroes.garena.tw/20151203-cover/index" target="_blank">【 新瑪奇英雄傳 】2015. 12 庫和名片工匠舖 </a></p>
                     </div>
-                    <div class="works">
+                    <div class="works col-xs-12 col-sm-4 col-md-4">
                         <ul class="lightgallery1">
                             <a href="img/works/event/mh/old_new/new/1.png">
                                 <li><img src="img/works/event/mh/old_new/new/s_1.png">
@@ -452,7 +457,7 @@
                         </ul>
                         <p><a href="https://event.heroes.garena.tw/20151021-old-new/index" target="_blanks_">【 新瑪奇英雄傳 】2015. 10 英雄培訓計畫 </a></p>
                     </div>
-                    <div class="works">
+                    <div class="works col-xs-12 col-sm-4 col-md-4">
                         <ul class="lightgallery1">
                             <a href="img/works/event/mh/cb/new/1.png">
                                 <li><img src="img/works/event/mh/cb/new/s_1.png">
@@ -470,7 +475,7 @@
                         </ul>
                         <p><a href="https://event.heroes.garena.tw/20150730cb/index" target="_blank">【 新瑪奇英雄傳 】2015. 07 封測碼 </a></p>
                     </div>
-                    <div class="works">
+                    <div class="works col-xs-12 col-sm-4 col-md-4">
                         <ul class="lightgallery1">
                             <a href="img/works/event/kizna/strategist/new/focus.png">
                                 <li><img src="img/works/event/kizna/strategist/new/s_focus.png">
@@ -482,7 +487,7 @@
                         </ul>
                         <p>【 戰國炎舞 】2015. 07 尋找現代的謀略家 專注力</p>
                     </div>
-                    <div class="works">
+                    <div class="works col-xs-12 col-sm-4 col-md-4">
                         <ul class="lightgallery1">
                             <a href="img/works/event/kizna/strategist/new/knowedge.png">
                                 <li><img src="img/works/event/kizna/strategist/new/knowedge.png">
@@ -494,7 +499,7 @@
                         </ul>
                         <p>【 戰國炎舞 】2015. 06 尋找現代的謀略家 知識力</p>
                     </div>
-                    <div class="works">
+                    <div class="works col-xs-12 col-sm-4 col-md-4">
                         <ul class="lightgallery1">
                             <a href="img/works/event/kizna/horse/new/horse1.png">
                                 <li><img src="img/works/event/kizna/horse/new/s_horse1.png">
@@ -517,7 +522,7 @@
             
             <div role="tabpanel" class="tab-pane" id="office">
                 <div class="gallery">
-                    <div class="works">
+                    <div class="works col-xs-12 col-sm-4 col-md-4">
                         <ul class="lightgallery1">
                             <a href="img/works/office/mh/new/1.png">
                                 <li><img src="img/works/office/mh/new/s_1.png"></li>
@@ -534,7 +539,7 @@
                         </ul>
                         <p><a href="http://heroes.garena.tw/" target="_blank">【 新瑪奇英雄傳 】2015. 08 官方網站</a></p>
                     </div>
-                    <div class="works">
+                    <div class="works col-xs-12 col-sm-4 col-md-4">
                         <ul class="lightgallery1">
                             <a href="img/works/office/mh/new/pre1.png">
                                 <li><img src="img/works/office/mh/new/s_pre1.png"></li>
@@ -542,7 +547,7 @@
                         </ul>
                         <p><a href="http://heroes.garena.tw/landing_website/index" target="_blank">【 新瑪奇英雄傳 】2015. 07 形象官方網站</a></p>
                     </div>
-                    <div class="works">
+                    <div class="works col-xs-12 col-sm-4 col-md-4">
                         <ul class="lightgallery1">
                             <a href="img/works/office/ccu/new/1.png">
                                 <li><img src="img/works/office/ccu/new/s_1.png"></li>
@@ -555,7 +560,7 @@
 
             <div role="tabpanel" class="tab-pane" id="backend">
                 <div class="gallery">
-                    <div class="works">
+                    <div class="works col-xs-12 col-sm-4 col-md-4">
                         <ul class="lightgallery1">
                             <a href="img/works/admin/ava/new/new1.png">
                                 <li><img src="img/works/admin/ava/new/s_new1.png"></li>
@@ -563,7 +568,7 @@
                         </ul>
                         <p>【 AVA戰地之王 】2016. 04 威噴市集操作後台</p>
                     </div>
-                    <div class="works">
+                    <div class="works col-xs-12 col-sm-4 col-md-4">
                         <ul class="lightgallery1">
                             <a href="img/works/admin/mh/new/1.png">
                                 <li><img src="img/works/admin/mh/new/s_1.png"></li>
@@ -582,9 +587,10 @@
                     </div>
                 </div>
             </div>
+
             <div role="tabpanel" class="tab-pane" id="statics">
                 <div class="gallery">
-                    <div class="works">
+                    <div class="works col-xs-12 col-sm-4 col-md-4">
                         <ul class="lightgallery1">
                             <a href="img/works/statistic/new/3.png">
                                 <li><img src="img/works/statistic/new/s_3.png"></li>
@@ -595,6 +601,8 @@
                 </div>
             </div>
         </div><!-- tab-content -->
+        </div>
+        <!-- col-lg-12 -->
     </div>
     </section>
 
@@ -602,6 +610,8 @@
     <div class="page-header-my">
         <h1>Contact Me</h1>
         <hr class="underline">
+    </div>
+    <div class="contact-all">
         <p style="font-size: 19px; line-height: 1.5;">birdyyang29@gmail.com</p>
         <div class="contact">
             <ul>
@@ -621,7 +631,7 @@
     </section>
 
 
-    <section style="padding:0px 80px; background-color: #222;">
+    <section style="padding:0px 80px; background-color: #222;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <footer>
             Copyright © 2016 Chia Fong Yang
         </footer>
@@ -630,12 +640,11 @@
 
 <script src="js/jquery-3.1.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="https://blackrockdigital.github.io/startbootstrap-agency/js/agency.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-<script src="https://event.heroes.garena.tw/20160929DragonBox/js/lightgallery.js"></script>
-<script src="https://event.heroes.garena.tw/20160929DragonBox/js/aos.js"></script>
-<script src="https://event.heroes.garena.tw/20160929DragonBox/js/jquery.easing.1.3.js"></script>
-<script src="https://event.heroes.garena.tw/20160929DragonBox/js/lg-thumbnail.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/lightgallery.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/lg-thumbnail.js"></script>
 
 <script type="text/javascript">
 
