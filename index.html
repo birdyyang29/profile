@@ -61,13 +61,17 @@
     <!-- Header -->
     <header id="home">
         <div class="container">
+        <div class="row">
             <div class="intro-text">
                 <div class="intro-lead-in">
                     <img src="img/birdy1_new.jpg" class="img-circle">
                 </div>
                 <div class="intro-heading">Hi ! I am Birdy </div>
                 <h4>Web Backend Engineer</h4>
-                <a href="#services" class="page-scroll btn btn-xl"></a>
+                <div class="text-center" style="padding-top:20px">
+                    <a class="btn btn-lg" role="button" href="#contact"><i class="fa fa-bolt"></i> Contact Me</a>
+                </div>
+            </div>
             </div>
         </div>
     </header>
@@ -81,6 +85,7 @@
         <div class="row">
             <div class="col-lg-2 col-md-3 col-sm-6" style="padding-top: 45px;   text-align: center;">
                 <img src="img/birdy1_new.jpg" class="img-circle">
+
             </div>
             <div class="col-lg-6 col-md-3 col-sm-6 about-me-content">
                 <h3>楊佳鳳</h3>
@@ -96,6 +101,7 @@
                 <p>生日：1990 . 8. 29</p>
                 <p>學歷：國立中正大學資訊管理研究所 碩士</p>
                 <p>E-mail：birdyyang29@gmail.com</p>
+
             </div>
         </div>
     </div>
@@ -114,7 +120,7 @@
         <li>
         <div class="timeline-badge">
             <i class="fa fa-briefcase"></i>
-            <div class="timeline-time"><span>2014 - 2016 </span></div> 
+            <div class="timeline-time"><span>2014 - 仍在職 </span></div> 
         </div>
           <div class="timeline-panel">
             <div class="timeline-heading">
@@ -122,7 +128,7 @@
                 <span>Garena 台灣競舞娛樂有限公司</span>
             </div>
             <div class="timeline-body">
-                <ul>
+                <ul  class="ul-all">
                     <li>專案包含：
                         <ul>
                             <li>官網建置</li>
@@ -148,10 +154,10 @@
                 <span>國立中正大學</span>
             </div>
             <div class="timeline-body">
-            <ul>
+            <ul class="ul-all">
                 <li>研究</li>
                 <ul>
-                    <li>研究領域:文字探勘</li>
+                    <li>領域：文字探勘</li>
                     <li>
                     <a href="http://handle.ncl.edu.tw/11296/ndltd/56459840763060513680" target="_blank"><p>畢業論文：根據使用者自訂標籤建構個人化文件分群</p></a>
                     </li>
@@ -159,8 +165,11 @@
                 <li>實習</li>
                 <ul>
                     <li>時間：2013.4 ~ 2014.4 </li>
-                    <li><a href="http://www.colmgt.ccu.edu.tw/colmgt/" target="_blank"><p>管理學院官網建置</p></a></li>
+                    <li>單位：國立中正大學管理學院院辦</li>
+                    <li><a href="http://www.colmgt.ccu.edu.tw/colmgt/" target="_blank"><p>管理學院網頁前後台建置及維護</p></a></li>
+                    <li>負責內容：版面設計與製作、瞭解需求、系統分析、人力分配、統整進度與報告</li>
                 </li>
+                <li>證照：中正大學Windows伺服器系統管理能力檢定 通過</li>
             </ul>
             </div>
           </div>
@@ -176,7 +185,18 @@
                 <span>國立彰化師範大學</span>
             </div>
             <div class="timeline-body">
-              <p></p>
+            <ul class="ul-all">
+                <li>資訊管理101級畢業成果暨系展</li>
+                    <ul>
+                        <li>2D平面設計組 優選</li>
+                        <li>畢業專題組 第三名</li>
+                    </ul>
+                </li>
+                <li>社團經歷</li>
+                <ul>
+                    <li>漁村服務社，擔任副隊長</li>
+                </ul>
+            </ul>
             </div>
           </div>
         </li>
@@ -286,6 +306,9 @@
                     </li>
                     <li role="presentation">
                         <a href="#statics" aria-controls="statics" role="tab" data-toggle="tab">數據</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#other" aria-controls="other" role="tab" data-toggle="tab">擬真</a>
                     </li>
                 </ul>
             </div>
@@ -614,6 +637,20 @@
                     </div>
                 </div>
             </div>
+
+            <div role="tabpanel" class="tab-pane" id="other">
+                <div class="gallery">
+                    <div class="works col-xs-12 col-sm-4 col-md-4">
+                        <ul class="lightgallery1">
+                            <a href="img/works/other/daisy.jpg">
+                                <li><img src="img/works/other/daisy.jpg"></li>
+                            </a>
+                        </ul>
+                        <p>2013. 12 Illustrator 擬真繪圖</p>
+                    </div>
+                </div>
+            </div>
+
         </div><!-- tab-content -->
         </div>
         <!-- col-lg-12 -->

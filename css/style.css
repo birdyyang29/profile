@@ -150,7 +150,9 @@ footer {
     padding: 10px 0;
   }
 } 
-
+.timeline .ul-all{
+  padding-top: 10px;
+}
 .timeline {
   list-style: none;
   padding: 20px 0 20px;
@@ -370,11 +372,7 @@ padding-left:90px;
   margin: 0 0 0 20px;
   text-transform: uppercase;
 }
-@media (max-width: 450px) {
-  .skill-row{
-    margin: 10px;
-  }
-}
+
 .progress .skill .val {
   float: right;
   font-style: normal;

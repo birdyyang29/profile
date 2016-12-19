@@ -188,6 +188,11 @@ header .intro-text .intro-lead-in img {
     width: 250px; 
     border: 7px solid #fff;
 }
+#home a{
+    background: #32c5d2;
+    color:#fff;
+} 
+
 @media (min-width: 768px) {
     header .container {
         padding-top: 50px;
