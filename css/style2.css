@@ -1,6 +1,6 @@
 html,
 body {
-    overflow-x: hidden; /* Prevent scroll on narrow devices */
+    overflow-x: hidden;
     font-family: Alegreya Sans SC,Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
@@ -78,7 +78,7 @@ hr{
 }
 .navbar-custom .navbar-brand {
     color: #32c5d2;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat',Helvetica,Arial,sans-serif;
     margin-top: -51px;
     padding: 23px 0 0 25px;
 }

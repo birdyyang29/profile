@@ -31,7 +31,7 @@
 }
 
 .page-header-my h1{
-	font-family: "Helvetica Neue";
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   text-align: center;
 }
 
@@ -55,7 +55,10 @@
 
 .gallery img {
     width:100%;
-}
+    box-shadow: -5px 0 5px  rgba(0, 0, 0, 0.2), 
+      0 -5px 5px rgba(0, 0, 0, 0.2), 
+      5px 0 5px  rgba(0, 0, 0, 0.2); 
+    }
 
 
 .gallery .hide{
@@ -64,16 +67,18 @@
 }
 
 .gallery ul li {
-    display: inline-block;
+  list-style: none;
 }
 
 .gallery p{
 	background-color: #fff;
-    text-align: center;
+  text-align: center;
  	padding: 10px 5px;
-    color: #222;
-    margin: 0;
-    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.2);
+  color: #222;
+  margin: 0;
+  box-shadow: -5px 0 5px  rgba(0, 0, 0, 0.2), 
+      0 5px 5px rgba(0, 0, 0, 0.2), 
+      5px 0 5px  rgba(0, 0, 0, 0.2);
 }
 
 .gallery a{
