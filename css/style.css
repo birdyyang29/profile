@@ -304,11 +304,8 @@ padding-left:90px;
   position: absolute;
   text-align: center;
   background-color: #fff;
-  width:160px;
   top:60px ;
   text-align: center;
-  left: 50%;
-  margin-left: -60px;
   margin-top: 28px;
 }
 
@@ -338,7 +335,9 @@ padding-left:90px;
   }
   .timeline-time{
     margin-top:-40px;
-    margin-left: 50%; 
+    margin-left: 100%; 
+    width:150px;
+
   }
   .timeline:before{
     background-color: #fff;

@@ -5,16 +5,16 @@ body {
 }
 
 section{
-    padding: 20px 80px;
+    padding: 20px 0;
 }
 @media (max-width: 450px) {
   section{
-    padding: 10px 5px;
+    padding: 10px 10px;
     }  
 }
 @media (max-width: 320px) {
   section{
-    padding: 5px 5px;
+    padding: 5px 10px;
     }  
 }
 .gray-bg{
