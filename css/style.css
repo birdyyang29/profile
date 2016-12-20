@@ -150,7 +150,8 @@ footer {
     padding: 10px 0;
   }
 } 
-.timeline .ul-all{
+
+.timeline .ul-all>li{
   padding-top: 10px;
 }
 .timeline {
