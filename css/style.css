@@ -3,6 +3,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.about-me-content h3{
+  font-weight: bold;
+}
+
 #about-me p{
   font-size: 15px;
   margin: 2px 0px 5px 0px;
@@ -17,16 +21,21 @@
     margin-top: 60px;
     text-align: left;
     border-left: 3px solid #272727;
-    padding-left: 10px ;
+    padding-left: 10px;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 768px) {
   .about-me-content{
       margin: 10px;
+      padding: 0px 20px;
   } 
   .about-me-info{
       margin: 20px;
       margin-top: 30px 
+      padding-left: 0px;
+      margin-left: 10px: 
+      padding: 0px 20px;
+
   }
 
 }
@@ -287,7 +296,12 @@ padding-left:90px;
 .timeline-title {
   margin-top: 0;
   color: inherit;
+  font-weight: bold;
 }
+.timeline-heading span{
+  font-weight: bold;
+}
+
 .timeline-body > p,
 .timeline-body > ul {
   margin-bottom: 0;
@@ -310,6 +324,9 @@ padding-left:90px;
 }
 
 @media (max-width: 768px){
+  .timeline{
+      padding: 0px 20px;
+  }
   .timeline > li > .timeline-panel { 
       float: left;
       width: 100%;
