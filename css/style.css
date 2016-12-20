@@ -7,6 +7,12 @@
   font-weight: bold;
 }
 
+.about-me-content h4{
+  padding-top: 10px;
+}
+
+
+
 #about-me p{
   font-size: 15px;
   margin: 2px 0px 5px 0px;
@@ -24,6 +30,10 @@
     padding-left: 10px;
 }
 
+.about-me-list{
+  margin-top: 10px;
+  text-align: center;
+}
 @media (max-width: 768px) {
   .about-me-content{
       margin: 10px;
